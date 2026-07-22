@@ -1,0 +1,111 @@
+{
+  "P_bull": 0.4706,
+  "P_bear": 0.1912,
+  "P_neutral": 0.3382,
+  "edge": 0.2794,
+  "bull_count": 5,
+  "bear_count": 4,
+  "signals": [
+    {
+      "name": "sma_regime",
+      "vote": 1,
+      "weight": 0.18,
+      "reason": "SMA50=719.3 > SMA200=641.8 golden cross (+12.1%)"
+    },
+    {
+      "name": "ema200",
+      "vote": 1,
+      "weight": 0.14,
+      "reason": "price=709.0 > EMA200=650.9 (+8.9%)"
+    },
+    {
+      "name": "macd_weekly",
+      "vote": 1,
+      "weight": 0.13,
+      "reason": "MACD weekly hist=+0.17% (bull momentum)"
+    },
+    {
+      "name": "rsi",
+      "vote": -1,
+      "weight": 0.11,
+      "reason": "RSI=38.9 (bear momentum <45)"
+    },
+    {
+      "name": "mom_ensemble",
+      "vote": 0,
+      "weight": 0.16,
+      "reason": "ensemble SPLIT: 1M=-4.3%\u2193 3M=+9.6%\u2191"
+    },
+    {
+      "name": "mom5",
+      "vote": -1,
+      "weight": 0.08,
+      "reason": "mom5d=-1.5% (bear)"
+    },
+    {
+      "name": "vix",
+      "vote": 0,
+      "weight": 0.11,
+      "reason": "VIX flat (+3.3% 5d, level=17.0)"
+    },
+    {
+      "name": "vix_term",
+      "vote": 1,
+      "weight": 0.09,
+      "reason": "VIX/VXV=0.870 contango (17.0/19.6) -- bull"
+    },
+    {
+      "name": "qqq_spy",
+      "vote": 0,
+      "weight": 0.1,
+      "reason": "QQQ/SPY ratio flat (-0.1% 10d)"
+    },
+    {
+      "name": "sma20",
+      "vote": -1,
+      "weight": 0.07,
+      "reason": "price=709.0 < SMA20=714.7 (-0.8%)"
+    },
+    {
+      "name": "credit",
+      "vote": 1,
+      "weight": 0.1,
+      "reason": "HYG/LQD ratio +0.82% (10d) -- credit tightening, bull"
+    },
+    {
+      "name": "bonds",
+      "vote": 0,
+      "weight": 0.09,
+      "reason": "TLT -1.1% (10d) -- bonds neutral"
+    },
+    {
+      "name": "vvix",
+      "vote": 0,
+      "weight": 0.0,
+      "reason": "VVIX 96.3 (normal/elevated) -- neutral"
+    },
+    {
+      "name": "skew",
+      "vote": -1,
+      "weight": 0.0,
+      "reason": "SKEW 151.7 (extreme crash-hedging) -- strong bear"
+    }
+  ],
+  "regime": "CORRECTION",
+  "conviction": "NONE",
+  "health": 64.0,
+  "qqq_price": 708.97,
+  "as_of": "2026-07-21T22:09:24+00:00",
+  "date": "2026-07-21",
+  "feeds_ok": {
+    "qqq": true,
+    "vix": true,
+    "spy": true,
+    "vxv": true,
+    "hyg": true,
+    "lqd": true,
+    "tlt": true,
+    "vvix": true,
+    "skew": true
+  }
+}
