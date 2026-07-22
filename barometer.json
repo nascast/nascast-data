@@ -94,8 +94,9 @@
   "regime": "CORRECTION",
   "conviction": "HIGH",
   "health": 69.8,
+  "summary": "Trend intact. Momentum weak. Risk appetite healthy.",
   "qqq_price": 708.97,
-  "as_of": "2026-07-22T03:05:33+00:00",
+  "as_of": "2026-07-22T03:21:29+00:00",
   "date": "2026-07-22",
   "feeds_ok": {
     "qqq": true,
