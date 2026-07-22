@@ -1,9 +1,9 @@
 {
-  "P_bull": 0.4706,
+  "P_bull": 0.5882,
   "P_bear": 0.1912,
-  "P_neutral": 0.3382,
-  "edge": 0.2794,
-  "bull_count": 5,
+  "P_neutral": 0.2206,
+  "edge": 0.3971,
+  "bull_count": 6,
   "bear_count": 4,
   "signals": [
     {
@@ -16,13 +16,13 @@
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=709.0 > EMA200=650.9 (+8.9%)"
+      "reason": "price=709.0 > EMA200=647.2 (+9.5%)"
     },
     {
       "name": "macd_weekly",
       "vote": 1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=+0.17% (bull momentum)"
+      "reason": "MACD weekly hist=+0.14% (bull momentum)"
     },
     {
       "name": "rsi",
@@ -32,9 +32,9 @@
     },
     {
       "name": "mom_ensemble",
-      "vote": 0,
+      "vote": 1,
       "weight": 0.16,
-      "reason": "ensemble SPLIT: 1M=-4.3%\u2193 3M=+9.6%\u2191"
+      "reason": "ensemble BULL (2/3): 1M=-4.3%\u2193 3M=+9.6%\u2191 12M=+40.0%\u2191"
     },
     {
       "name": "mom5",
@@ -92,11 +92,11 @@
     }
   ],
   "regime": "CORRECTION",
-  "conviction": "NONE",
-  "health": 64.0,
+  "conviction": "LOW",
+  "health": 69.8,
   "qqq_price": 708.97,
-  "as_of": "2026-07-21T22:09:24+00:00",
-  "date": "2026-07-21",
+  "as_of": "2026-07-22T02:49:28+00:00",
+  "date": "2026-07-22",
   "feeds_ok": {
     "qqq": true,
     "vix": true,
