@@ -14,5 +14,13 @@
     "P_bull": 0.5882,
     "P_bear": 0.1912,
     "edge": 0.3971
+  },
+  {
+    "date": "2026-07-23",
+    "health": 61.4,
+    "regime": "CORRECTION",
+    "P_bull": 0.4926,
+    "P_bear": 0.2647,
+    "edge": 0.2279
   }
 ]
