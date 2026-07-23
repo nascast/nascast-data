@@ -46,13 +46,13 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+5.1% 5d, level=17.6)"
+      "reason": "VIX flat (+6.8% 5d, level=17.9)"
     },
     {
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.856 contango (17.6/20.5) -- bull"
+      "reason": "VIX/VXV=0.870 contango (17.9/20.5) -- bull"
     },
     {
       "name": "qqq_spy",
@@ -95,9 +95,11 @@
   "conviction": "MEDIUM",
   "health": 61.4,
   "summary": "Trend intact. Momentum weak. Risk appetite healthy.",
+  "drawdown_pct": -5.47,
+  "confirmed": false,
   "qqq_price": 705.35,
   "nasdaq_close": 28998.1,
-  "as_of": "2026-07-23T07:45:45+00:00",
+  "as_of": "2026-07-23T08:18:21+00:00",
   "date": "2026-07-23",
   "feeds_ok": {
     "qqq": true,
