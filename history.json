@@ -1,14 +1,710 @@
 [
   {
-    "date": "2026-07-21",
+    "date": "2026-03-13",
+    "health": 52.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.4044,
+    "edge": 0.0441
+  },
+  {
+    "date": "2026-03-16",
+    "health": 68.0,
+    "regime": "CORRECTION",
+    "P_bull": 0.5662,
+    "P_bear": 0.2059,
+    "edge": 0.3603
+  },
+  {
+    "date": "2026-03-17",
+    "health": 70.6,
+    "regime": "BULL",
+    "P_bull": 0.6471,
+    "P_bear": 0.2353,
+    "edge": 0.4118
+  },
+  {
+    "date": "2026-03-18",
     "health": 64.0,
     "regime": "CORRECTION",
-    "P_bull": 0.4706,
-    "P_bear": 0.1912,
+    "P_bull": 0.5662,
+    "P_bear": 0.2868,
     "edge": 0.2794
   },
   {
-    "date": "2026-07-22",
+    "date": "2026-03-19",
+    "health": 58.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.4632,
+    "P_bear": 0.2868,
+    "edge": 0.1765
+  },
+  {
+    "date": "2026-03-20",
+    "health": 47.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.3456,
+    "P_bear": 0.3897,
+    "edge": 0.0441
+  },
+  {
+    "date": "2026-03-23",
+    "health": 49.3,
+    "regime": "CORRECTION",
+    "P_bull": 0.2721,
+    "P_bear": 0.2868,
+    "edge": 0.0147
+  },
+  {
+    "date": "2026-03-24",
+    "health": 34.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.2721,
+    "P_bear": 0.5882,
+    "edge": 0.3162
+  },
+  {
+    "date": "2026-03-25",
+    "health": 36.4,
+    "regime": "CORRECTION",
+    "P_bull": 0.1324,
+    "P_bear": 0.4044,
+    "edge": 0.2721
+  },
+  {
+    "date": "2026-03-26",
+    "health": 27.6,
+    "regime": "BEAR",
+    "P_bull": 0.1324,
+    "P_bear": 0.5809,
+    "edge": 0.4485
+  },
+  {
+    "date": "2026-03-27",
+    "health": 20.2,
+    "regime": "FEAR",
+    "P_bull": 0.1324,
+    "P_bear": 0.7279,
+    "edge": 0.5956
+  },
+  {
+    "date": "2026-03-30",
+    "health": 16.5,
+    "regime": "FEAR",
+    "P_bull": 0.1324,
+    "P_bear": 0.8015,
+    "edge": 0.6691
+  },
+  {
+    "date": "2026-03-31",
+    "health": 27.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.1324,
+    "P_bear": 0.5809,
+    "edge": 0.4485
+  },
+  {
+    "date": "2026-04-01",
+    "health": 32.7,
+    "regime": "CORRECTION",
+    "P_bull": 0.1324,
+    "P_bear": 0.4779,
+    "edge": 0.3456
+  },
+  {
+    "date": "2026-04-02",
+    "health": 52.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.2721,
+    "P_bear": 0.2206,
+    "edge": 0.0515
+  },
+  {
+    "date": "2026-04-06",
+    "health": 54.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.2721,
+    "P_bear": 0.1765,
+    "edge": 0.0956
+  },
+  {
+    "date": "2026-04-07",
+    "health": 60.7,
+    "regime": "CORRECTION",
+    "P_bull": 0.3897,
+    "P_bear": 0.1765,
+    "edge": 0.2132
+  },
+  {
+    "date": "2026-04-08",
+    "health": 69.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.4926,
+    "P_bear": 0.0956,
+    "edge": 0.3971
+  },
+  {
+    "date": "2026-04-09",
+    "health": 76.8,
+    "regime": "BULL",
+    "P_bull": 0.6324,
+    "P_bear": 0.0956,
+    "edge": 0.5368
+  },
+  {
+    "date": "2026-04-10",
+    "health": 76.8,
+    "regime": "BULL",
+    "P_bull": 0.6324,
+    "P_bear": 0.0956,
+    "edge": 0.5368
+  },
+  {
+    "date": "2026-04-13",
+    "health": 76.8,
+    "regime": "BULL",
+    "P_bull": 0.6324,
+    "P_bear": 0.0956,
+    "edge": 0.5368
+  },
+  {
+    "date": "2026-04-14",
+    "health": 80.5,
+    "regime": "BULL",
+    "P_bull": 0.7059,
+    "P_bear": 0.0956,
+    "edge": 0.6103
+  },
+  {
+    "date": "2026-04-15",
+    "health": 76.8,
+    "regime": "BULL",
+    "P_bull": 0.6324,
+    "P_bear": 0.0956,
+    "edge": 0.5368
+  },
+  {
+    "date": "2026-04-16",
+    "health": 76.5,
+    "regime": "BULL",
+    "P_bull": 0.625,
+    "P_bear": 0.0956,
+    "edge": 0.5294
+  },
+  {
+    "date": "2026-04-17",
+    "health": 76.5,
+    "regime": "BULL",
+    "P_bull": 0.625,
+    "P_bear": 0.0956,
+    "edge": 0.5294
+  },
+  {
+    "date": "2026-04-20",
+    "health": 72.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.5515,
+    "P_bear": 0.0956,
+    "edge": 0.4559
+  },
+  {
+    "date": "2026-04-21",
+    "health": 73.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.5588,
+    "P_bear": 0.0956,
+    "edge": 0.4632
+  },
+  {
+    "date": "2026-04-22",
+    "health": 72.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.5515,
+    "P_bear": 0.0956,
+    "edge": 0.4559
+  },
+  {
+    "date": "2026-04-23",
+    "health": 72.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.5515,
+    "P_bear": 0.0956,
+    "edge": 0.4559
+  },
+  {
+    "date": "2026-04-24",
+    "health": 77.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.5515,
+    "P_bear": 0.0,
+    "edge": 0.5515
+  },
+  {
+    "date": "2026-04-27",
+    "health": 81.2,
+    "regime": "BULL",
+    "P_bull": 0.625,
+    "P_bear": 0.0,
+    "edge": 0.625
+  },
+  {
+    "date": "2026-04-28",
+    "health": 92.6,
+    "regime": "BULL",
+    "P_bull": 0.8529,
+    "P_bear": 0.0,
+    "edge": 0.8529
+  },
+  {
+    "date": "2026-04-29",
+    "health": 92.6,
+    "regime": "BULL",
+    "P_bull": 0.8529,
+    "P_bear": 0.0,
+    "edge": 0.8529
+  },
+  {
+    "date": "2026-04-30",
+    "health": 96.7,
+    "regime": "BULL",
+    "P_bull": 0.9338,
+    "P_bear": 0.0,
+    "edge": 0.9338
+  },
+  {
+    "date": "2026-05-01",
+    "health": 92.6,
+    "regime": "BULL",
+    "P_bull": 0.8529,
+    "P_bear": 0.0,
+    "edge": 0.8529
+  },
+  {
+    "date": "2026-05-04",
+    "health": 96.0,
+    "regime": "BULL",
+    "P_bull": 0.9191,
+    "P_bear": 0.0,
+    "edge": 0.9191
+  },
+  {
+    "date": "2026-05-05",
+    "health": 92.6,
+    "regime": "BULL",
+    "P_bull": 0.8529,
+    "P_bear": 0.0,
+    "edge": 0.8529
+  },
+  {
+    "date": "2026-05-06",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-07",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-08",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-11",
+    "health": 85.3,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0735,
+    "edge": 0.7059
+  },
+  {
+    "date": "2026-05-12",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-13",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-14",
+    "health": 85.3,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0735,
+    "edge": 0.7059
+  },
+  {
+    "date": "2026-05-15",
+    "health": 89.3,
+    "regime": "BULL",
+    "P_bull": 0.7868,
+    "P_bear": 0.0,
+    "edge": 0.7868
+  },
+  {
+    "date": "2026-05-18",
+    "health": 83.1,
+    "regime": "BULL",
+    "P_bull": 0.7206,
+    "P_bear": 0.0588,
+    "edge": 0.6618
+  },
+  {
+    "date": "2026-05-19",
+    "health": 90.1,
+    "regime": "BULL",
+    "P_bull": 0.8603,
+    "P_bear": 0.0588,
+    "edge": 0.8015
+  },
+  {
+    "date": "2026-05-20",
+    "health": 93.0,
+    "regime": "BULL",
+    "P_bull": 0.8603,
+    "P_bear": 0.0,
+    "edge": 0.8603
+  },
+  {
+    "date": "2026-05-21",
+    "health": 86.8,
+    "regime": "BULL",
+    "P_bull": 0.7941,
+    "P_bear": 0.0588,
+    "edge": 0.7353
+  },
+  {
+    "date": "2026-05-22",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-26",
+    "health": 92.6,
+    "regime": "BULL",
+    "P_bull": 0.8529,
+    "P_bear": 0.0,
+    "edge": 0.8529
+  },
+  {
+    "date": "2026-05-27",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-28",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-05-29",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-06-01",
+    "health": 82.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.1397,
+    "edge": 0.6397
+  },
+  {
+    "date": "2026-06-02",
+    "health": 82.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.1397,
+    "edge": 0.6397
+  },
+  {
+    "date": "2026-06-03",
+    "health": 82.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.1397,
+    "edge": 0.6397
+  },
+  {
+    "date": "2026-06-04",
+    "health": 85.3,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0735,
+    "edge": 0.7059
+  },
+  {
+    "date": "2026-06-05",
+    "health": 55.5,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.3382,
+    "edge": 0.1103
+  },
+  {
+    "date": "2026-06-08",
+    "health": 66.5,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.1912,
+    "edge": 0.3309
+  },
+  {
+    "date": "2026-06-09",
+    "health": 55.5,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.3382,
+    "edge": 0.1103
+  },
+  {
+    "date": "2026-06-10",
+    "health": 55.1,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.3456,
+    "edge": 0.1029
+  },
+  {
+    "date": "2026-06-11",
+    "health": 62.9,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.1912,
+    "edge": 0.2574
+  },
+  {
+    "date": "2026-06-12",
+    "health": 82.7,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.0,
+    "edge": 0.6544
+  },
+  {
+    "date": "2026-06-15",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-06-16",
+    "health": 81.6,
+    "regime": "BULL",
+    "P_bull": 0.7059,
+    "P_bear": 0.0735,
+    "edge": 0.6324
+  },
+  {
+    "date": "2026-06-17",
+    "health": 79.0,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.0735,
+    "edge": 0.5809
+  },
+  {
+    "date": "2026-06-18",
+    "health": 89.0,
+    "regime": "BULL",
+    "P_bull": 0.7794,
+    "P_bear": 0.0,
+    "edge": 0.7794
+  },
+  {
+    "date": "2026-06-22",
+    "health": 84.9,
+    "regime": "BULL",
+    "P_bull": 0.6985,
+    "P_bear": 0.0,
+    "edge": 0.6985
+  },
+  {
+    "date": "2026-06-23",
+    "health": 55.1,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.3456,
+    "edge": 0.1029
+  },
+  {
+    "date": "2026-06-24",
+    "health": 59.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.3309,
+    "edge": 0.1912
+  },
+  {
+    "date": "2026-06-25",
+    "health": 59.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.3309,
+    "edge": 0.1912
+  },
+  {
+    "date": "2026-06-26",
+    "health": 63.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.1838,
+    "edge": 0.2647
+  },
+  {
+    "date": "2026-06-29",
+    "health": 65.8,
+    "regime": "CORRECTION",
+    "P_bull": 0.4485,
+    "P_bear": 0.1324,
+    "edge": 0.3162
+  },
+  {
+    "date": "2026-06-30",
+    "health": 89.3,
+    "regime": "BULL",
+    "P_bull": 0.7868,
+    "P_bear": 0.0,
+    "edge": 0.7868
+  },
+  {
+    "date": "2026-07-01",
+    "health": 86.8,
+    "regime": "BULL",
+    "P_bull": 0.7353,
+    "P_bear": 0.0,
+    "edge": 0.7353
+  },
+  {
+    "date": "2026-07-02",
+    "health": 70.6,
+    "regime": "CORRECTION",
+    "P_bull": 0.5956,
+    "P_bear": 0.1838,
+    "edge": 0.4118
+  },
+  {
+    "date": "2026-07-06",
+    "health": 79.0,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.0735,
+    "edge": 0.5809
+  },
+  {
+    "date": "2026-07-07",
+    "health": 66.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.5882,
+    "P_bear": 0.2647,
+    "edge": 0.3235
+  },
+  {
+    "date": "2026-07-08",
+    "health": 69.5,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.2647,
+    "edge": 0.3897
+  },
+  {
+    "date": "2026-07-09",
+    "health": 79.0,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.0735,
+    "edge": 0.5809
+  },
+  {
+    "date": "2026-07-10",
+    "health": 77.9,
+    "regime": "BULL",
+    "P_bull": 0.7132,
+    "P_bear": 0.1544,
+    "edge": 0.5588
+  },
+  {
+    "date": "2026-07-13",
+    "health": 69.5,
+    "regime": "BULL",
+    "P_bull": 0.6544,
+    "P_bear": 0.2647,
+    "edge": 0.3897
+  },
+  {
+    "date": "2026-07-14",
+    "health": 82.0,
+    "regime": "BULL",
+    "P_bull": 0.7132,
+    "P_bear": 0.0735,
+    "edge": 0.6397
+  },
+  {
+    "date": "2026-07-15",
+    "health": 82.0,
+    "regime": "BULL",
+    "P_bull": 0.7132,
+    "P_bear": 0.0735,
+    "edge": 0.6397
+  },
+  {
+    "date": "2026-07-16",
+    "health": 70.2,
+    "regime": "CORRECTION",
+    "P_bull": 0.5882,
+    "P_bear": 0.1838,
+    "edge": 0.4044
+  },
+  {
+    "date": "2026-07-17",
+    "health": 62.9,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.2647,
+    "edge": 0.2574
+  },
+  {
+    "date": "2026-07-20",
+    "health": 62.9,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.2647,
+    "edge": 0.2574
+  },
+  {
+    "date": "2026-07-21",
     "health": 69.8,
     "regime": "CORRECTION",
     "P_bull": 0.5882,
@@ -16,12 +712,12 @@
     "edge": 0.3971
   },
   {
-    "date": "2026-07-23",
-    "health": 61.4,
+    "date": "2026-07-22",
+    "health": 66.2,
     "regime": "CORRECTION",
-    "P_bull": 0.4926,
+    "P_bull": 0.5882,
     "P_bear": 0.2647,
-    "edge": 0.2279
+    "edge": 0.3235
   },
   {
     "date": "2026-07-24",
