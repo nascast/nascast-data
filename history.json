@@ -726,5 +726,13 @@
     "P_bull": 0.4265,
     "P_bear": 0.3603,
     "edge": 0.0662
+  },
+  {
+    "date": "2026-07-25",
+    "health": 53.3,
+    "regime": "CORRECTION",
+    "P_bull": 0.4265,
+    "P_bear": 0.3603,
+    "edge": 0.0662
   }
 ]

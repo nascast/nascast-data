@@ -10,97 +10,97 @@
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=718.7 > SMA200=642.8 golden cross (+11.8%)"
+      "reason": "SMA50=718.3 > SMA200=643.2 golden cross (+11.7%)"
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=692.0 > EMA200=648.2 (+6.7%)"
+      "reason": "price=684.2 > EMA200=648.6 (+5.5%)"
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.12% (bear momentum)"
+      "reason": "MACD weekly hist=-0.20% (bear momentum)"
     },
     {
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=41.1 (bear momentum <45)"
+      "reason": "RSI=33.1 (bear momentum <45)"
     },
     {
       "name": "mom_ensemble",
       "vote": 1,
       "weight": 0.16,
-      "reason": "ensemble BULL (2/3): 1M=-3.0%\u2193 3M=+5.6%\u2191 12M=+35.5%\u2191"
+      "reason": "ensemble BULL (2/3): 1M=-3.7%\u2193 3M=+5.0%\u2191 12M=+33.7%\u2191"
     },
     {
       "name": "mom5",
       "vote": -1,
       "weight": 0.08,
-      "reason": "mom5d=-2.0% (bear)"
+      "reason": "mom5d=-1.6% (bear)"
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+11.8% 5d, level=18.7)"
+      "reason": "VIX flat (-1.0% 5d, level=18.6)"
     },
     {
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.908 flat -- neutral"
+      "reason": "VIX/VXV=0.906 flat -- neutral"
     },
     {
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -2.6% (10d) -- tech lagging"
+      "reason": "QQQ/SPY ratio -3.6% (10d) -- tech lagging"
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=692.0 < SMA20=713.3 (-3.0%)"
+      "reason": "price=684.2 < SMA20=711.7 (-3.9%)"
     },
     {
       "name": "credit",
       "vote": 1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.70% (10d) -- credit tightening, bull"
+      "reason": "HYG/LQD ratio +0.55% (10d) -- credit tightening, bull"
     },
     {
       "name": "bonds",
       "vote": 0,
       "weight": 0.09,
-      "reason": "TLT -1.6% (10d) -- bonds neutral"
+      "reason": "TLT -1.4% (10d) -- bonds neutral"
     },
     {
       "name": "vvix",
       "vote": 0,
       "weight": 0.0,
-      "reason": "VVIX 102.2 (normal/elevated) -- neutral"
+      "reason": "VVIX 100.7 (normal/elevated) -- neutral"
     },
     {
       "name": "skew",
       "vote": -1,
       "weight": 0.0,
-      "reason": "SKEW 145.9 (extreme crash-hedging) -- strong bear"
+      "reason": "SKEW 147.3 (extreme crash-hedging) -- strong bear"
     }
   ],
   "regime": "CORRECTION",
   "conviction": "LOW",
   "health": 53.3,
   "summary": "Trend mixed. Momentum weak. Risk signals mixed.",
-  "drawdown_pct": -7.19,
+  "drawdown_pct": -8.26,
   "confirmed": false,
-  "qqq_price": 691.96,
-  "nasdaq_close": 28454.81,
-  "as_of": "2026-07-24T01:26:33+00:00",
-  "date": "2026-07-24",
+  "qqq_price": 684.23,
+  "nasdaq_close": 28128.34,
+  "as_of": "2026-07-25T02:12:52+00:00",
+  "date": "2026-07-25",
   "feeds_ok": {
     "qqq": true,
     "vix": true,
