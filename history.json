@@ -720,6 +720,14 @@
     "edge": 0.3235
   },
   {
+    "date": "2026-07-23",
+    "health": 62.9,
+    "regime": "CORRECTION",
+    "P_bull": 0.5221,
+    "P_bear": 0.2647,
+    "edge": 0.2574
+  },
+  {
     "date": "2026-07-24",
     "health": 53.3,
     "regime": "CORRECTION",
