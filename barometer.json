@@ -52,7 +52,7 @@
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.906 flat -- neutral"
+      "reason": "VIX/VXV=0.905 flat -- neutral"
     },
     {
       "name": "qqq_spy",
@@ -99,7 +99,7 @@
   "confirmed": false,
   "qqq_price": 684.23,
   "nasdaq_close": 28128.34,
-  "as_of": "2026-07-25T03:39:27+00:00",
+  "as_of": "2026-07-25T06:06:51+00:00",
   "date": "2026-07-24",
   "feeds_ok": {
     "qqq": true,
