@@ -52,7 +52,11 @@
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
+<<<<<<< HEAD
       "reason": "VIX/VXV=0.910 flat -- neutral"
+=======
+      "reason": "VIX/VXV=0.905 flat -- neutral"
+>>>>>>> 1e658fb (refuse to publish a reading older than the one already published)
     },
     {
       "name": "qqq_spy",
@@ -97,10 +101,17 @@
   "summary": "Trend mixed. Momentum weak. Risk signals mixed.",
   "drawdown_pct": -7.19,
   "confirmed": false,
+<<<<<<< HEAD
   "qqq_price": 691.96,
   "nasdaq_close": 28454.81,
   "as_of": "2026-07-25T21:05:20+00:00",
   "date": "2026-07-23",
+=======
+  "qqq_price": 684.23,
+  "nasdaq_close": 28128.34,
+  "as_of": "2026-07-26T01:52:37+00:00",
+  "date": "2026-07-24",
+>>>>>>> 1e658fb (refuse to publish a reading older than the one already published)
   "feeds_ok": {
     "qqq": true,
     "vix": true,
