@@ -1,96 +1,96 @@
 {
-  "P_bull": 0.4265,
+  "P_bull": 0.2353,
   "P_bear": 0.3603,
-  "P_neutral": 0.2132,
-  "edge": 0.0662,
-  "bull_count": 4,
+  "P_neutral": 0.4044,
+  "edge": 0.125,
+  "bull_count": 2,
   "bear_count": 5,
   "signals": [
     {
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=718.3 > SMA200=643.2 golden cross (+11.7%)"
+      "reason": "SMA50=717.6 > SMA200=643.6 golden cross (+11.5%)"
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=684.2 > EMA200=648.6 (+5.5%)"
+      "reason": "price=682.1 > EMA200=648.9 (+5.1%)"
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.20% (bear momentum)"
+      "reason": "MACD weekly hist=-0.46% (bear momentum)"
     },
     {
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=33.1 (bear momentum <45)"
+      "reason": "RSI=36.7 (bear momentum <45)"
     },
     {
       "name": "mom_ensemble",
-      "vote": 1,
+      "vote": 0,
       "weight": 0.16,
-      "reason": "ensemble BULL (2/3): 1M=-3.7%\u2193 3M=+5.0%\u2191 12M=+33.7%\u2191"
+      "reason": "ensemble SPLIT: 1M=-4.8%\u2193 3M=+2.7%\u2013 12M=+32.7%\u2191"
     },
     {
       "name": "mom5",
       "vote": -1,
       "weight": 0.08,
-      "reason": "mom5d=-1.6% (bear)"
+      "reason": "mom5d=-2.0% (bear)"
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (-1.0% 5d, level=18.6)"
+      "reason": "VIX flat (+0.1% 5d, level=18.7)"
     },
     {
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.905 flat -- neutral"
+      "reason": "VIX/VXV=0.924 flat -- neutral"
     },
     {
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -3.6% (10d) -- tech lagging"
+      "reason": "QQQ/SPY ratio -2.9% (10d) -- tech lagging"
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=684.2 < SMA20=711.7 (-3.9%)"
+      "reason": "price=682.1 < SMA20=710.5 (-4.0%)"
     },
     {
       "name": "credit",
-      "vote": 1,
+      "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.55% (10d) -- credit tightening, bull"
+      "reason": "HYG/LQD ratio flat (+0.11% 10d) -- neutral"
     },
     {
       "name": "bonds",
       "vote": 0,
       "weight": 0.09,
-      "reason": "TLT -1.4% (10d) -- bonds neutral"
+      "reason": "TLT -0.3% (10d) -- bonds neutral"
     }
   ],
   "regime": "CORRECTION",
   "conviction": "LOW",
-  "health": 53.3,
-  "summary": "Trend mixed. Momentum weak. Risk signals mixed.",
-  "drawdown_pct": -8.56,
+  "health": 43.8,
+  "summary": "Trend mixed. Momentum weak. Risk-off pressure building.",
+  "drawdown_pct": -8.85,
   "high_52w": 30762.2,
   "low_52w": 22673.88,
   "confirmed": false,
-  "qqq_price": 684.23,
-  "nasdaq_close": 28128.34,
-  "as_of": "2026-07-27T00:21:27+00:00",
-  "date": "2026-07-24",
+  "qqq_price": 682.12,
+  "nasdaq_close": 28039.21,
+  "as_of": "2026-07-27T21:05:18+00:00",
+  "date": "2026-07-27",
   "feeds_ok": {
     "qqq": true,
     "vix": true,
