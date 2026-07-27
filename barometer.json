@@ -4,7 +4,7 @@
   "P_neutral": 0.2132,
   "edge": 0.0662,
   "bull_count": 4,
-  "bear_count": 6,
+  "bear_count": 5,
   "signals": [
     {
       "name": "sma_regime",
@@ -77,18 +77,6 @@
       "vote": 0,
       "weight": 0.09,
       "reason": "TLT -1.4% (10d) -- bonds neutral"
-    },
-    {
-      "name": "vvix",
-      "vote": 0,
-      "weight": 0.0,
-      "reason": "VVIX 100.7 (normal/elevated) -- neutral"
-    },
-    {
-      "name": "skew",
-      "vote": -1,
-      "weight": 0.0,
-      "reason": "SKEW 147.3 (extreme crash-hedging) -- strong bear"
     }
   ],
   "regime": "CORRECTION",
@@ -101,7 +89,7 @@
   "confirmed": false,
   "qqq_price": 684.23,
   "nasdaq_close": 28128.34,
-  "as_of": "2026-07-26T02:57:06+00:00",
+  "as_of": "2026-07-27T00:21:27+00:00",
   "date": "2026-07-24",
   "feeds_ok": {
     "qqq": true,
@@ -110,8 +98,6 @@
     "vxv": true,
     "hyg": true,
     "lqd": true,
-    "tlt": true,
-    "vvix": true,
-    "skew": true
+    "tlt": true
   }
 }
