@@ -10,73 +10,97 @@
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=717.6 > SMA200=643.6 golden cross (+11.5%)"
+      "reason": "SMA50=717.6 > SMA200=643.6 golden cross (+11.5%)",
+      "label": "Long-term trend",
+      "plain": "The 50-day average sits 11.5% above the 200-day, the pattern traders call a golden cross."
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=682.1 > EMA200=648.9 (+5.1%)"
+      "reason": "price=682.1 > EMA200=648.9 (+5.1%)",
+      "label": "Price vs long-term average",
+      "plain": "Price is 5.1% above its 200-day average."
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.46% (bear momentum)"
+      "reason": "MACD weekly hist=-0.46% (bear momentum)",
+      "label": "Weekly momentum",
+      "plain": "Momentum on the weekly chart is fading."
     },
     {
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=36.7 (bear momentum <45)"
+      "reason": "RSI=36.7 (bear momentum <45)",
+      "label": "Overbought or oversold",
+      "plain": "RSI is 37, with sellers in control."
     },
     {
       "name": "mom_ensemble",
       "vote": 0,
       "weight": 0.16,
-      "reason": "ensemble SPLIT: 1M=-4.8%\u2193 3M=+2.7%\u2013 12M=+32.7%\u2191"
+      "reason": "ensemble SPLIT: 1M=-4.8%\u2193 3M=+2.7%\u2013 12M=+32.7%\u2191",
+      "label": "Momentum across timeframes",
+      "plain": "Mixed picture: down 4.8% this month, up 2.7% over three months and up 32.7% over the past year."
     },
     {
       "name": "mom5",
       "vote": -1,
       "weight": 0.08,
-      "reason": "mom5d=-2.0% (bear)"
+      "reason": "mom5d=-2.0% (bear)",
+      "label": "This week's momentum",
+      "plain": "Down 2.0% over the last five days."
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+0.1% 5d, level=18.7)"
+      "reason": "VIX flat (+0.1% 5d, level=18.7)",
+      "label": "Volatility direction",
+      "plain": "Volatility is steady at 19."
     },
     {
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.924 flat -- neutral"
+      "reason": "VIX/VXV=0.924 flat -- neutral",
+      "label": "Near vs longer-term volatility",
+      "plain": "Near-term and three-month volatility are in line (ratio 0.92)."
     },
     {
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -2.9% (10d) -- tech lagging"
+      "reason": "QQQ/SPY ratio -2.9% (10d) -- tech lagging",
+      "label": "Tech vs the broad market",
+      "plain": "Over ten days the NASDAQ-100 fell 4.2% against the S&P's fall of 1.3%."
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=682.1 < SMA20=710.5 (-4.0%)"
+      "reason": "price=682.1 < SMA20=710.5 (-4.0%)",
+      "label": "Short-term trend",
+      "plain": "Price is 4.0% below its 20-day average."
     },
     {
       "name": "credit",
       "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio flat (+0.11% 10d) -- neutral"
+      "reason": "HYG/LQD ratio flat (+0.11% 10d) -- neutral",
+      "label": "Credit conditions",
+      "plain": "Corporate credit markets are calm, with no clear lean."
     },
     {
       "name": "bonds",
       "vote": 0,
       "weight": 0.09,
-      "reason": "TLT -0.3% (10d) -- bonds neutral"
+      "reason": "TLT -0.3% (10d) -- bonds neutral",
+      "label": "Bond flows",
+      "plain": "Treasuries are flat, with no flight to safety."
     }
   ],
   "regime": "CORRECTION",
@@ -89,7 +113,7 @@
   "confirmed": false,
   "qqq_price": 682.12,
   "nasdaq_close": 28039.21,
-  "as_of": "2026-07-28T00:14:58+00:00",
+  "as_of": "2026-07-28T01:06:02+00:00",
   "date": "2026-07-27",
   "feeds_ok": {
     "qqq": true,
