@@ -1,34 +1,34 @@
 {
-  "P_bull": 0.375,
-  "P_bear": 0.3603,
-  "P_neutral": 0.2647,
-  "edge": 0.0147,
-  "bull_count": 4,
-  "bear_count": 5,
+  "P_bull": 0.5809,
+  "P_bear": 0.3015,
+  "P_neutral": 0.1176,
+  "edge": 0.2794,
+  "bull_count": 7,
+  "bear_count": 4,
   "signals": [
     {
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=715.4 > SMA200=644.6 golden cross (+11.0%)",
+      "reason": "SMA50=715.1 > SMA200=645.0 golden cross (+10.9%)",
       "label": "Long-term trend",
       "basis": "50-day vs 200-day moving average",
-      "plain": "The 50-day average sits 11.0% above the 200-day, the pattern traders call a golden cross."
+      "plain": "The 50-day average sits 10.9% above the 200-day, the pattern traders call a golden cross."
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=683.5 > EMA200=649.6 (+5.2%)",
+      "reason": "price=688.0 > EMA200=650.0 (+5.8%)",
       "label": "Price vs long-term average",
       "basis": "Price vs its 200-day exponential average",
-      "plain": "Price is 5.2% above its 200-day average."
+      "plain": "Price is 5.8% above its 200-day average."
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.50% (bear momentum)",
+      "reason": "MACD weekly hist=-0.46% (bear momentum)",
       "label": "Weekly momentum",
       "basis": "MACD histogram on weekly bars",
       "plain": "Momentum on the weekly chart is fading."
@@ -37,43 +37,43 @@
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=33.7 (bear momentum <45)",
+      "reason": "RSI=40.1 (bear momentum <45)",
       "label": "Overbought or oversold",
       "basis": "14-day Relative Strength Index",
-      "plain": "RSI is 34, with sellers in control."
+      "plain": "RSI is 40, with sellers in control."
     },
     {
       "name": "mom_ensemble",
       "vote": 0,
       "weight": 0.16,
-      "reason": "ensemble SPLIT: 1M=-7.2%\u2193 3M=+3.3%\u2013 12M=+34.4%\u2191",
+      "reason": "ensemble SPLIT: 1M=-5.1%\u2193 3M=+3.0%\u2013 12M=+31.5%\u2191",
       "label": "Momentum across timeframes",
       "basis": "Returns over 1, 3 and 12 months",
-      "plain": "Mixed picture: down 7.2% this month, up 3.3% over three months and up 34.4% over the past year."
+      "plain": "Mixed picture: down 5.1% this month, up 3.0% over three months and up 31.5% over the past year."
     },
     {
       "name": "mom5",
-      "vote": -1,
+      "vote": 1,
       "weight": 0.08,
-      "reason": "mom5d=-1.2% (bear)",
+      "reason": "mom5d=+0.6% (bull)",
       "label": "This week's momentum",
       "basis": "5-day price change",
-      "plain": "Down 1.2% over the last five days."
+      "plain": "Up 0.5% over the last five days."
     },
     {
       "name": "vix",
-      "vote": 0,
+      "vote": 1,
       "weight": 0.11,
-      "reason": "VIX flat (-9.4% 5d, level=16.8)",
+      "reason": "VIX -13.9% (5d) collapsing -- fear resolving, bull",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
-      "plain": "Volatility is steady at 17."
+      "plain": "The volatility index fell 14% in five days to 16. Fear is easing."
     },
     {
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.820 contango (16.8/20.5) -- bull",
+      "reason": "VIX/VXV=0.841 contango (16.0/19.0) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -82,51 +82,51 @@
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -2.0% (10d) -- tech lagging",
+      "reason": "QQQ/SPY ratio -1.6% (10d) -- tech lagging",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 fell 3.2% against the S&P's fall of 1.2%."
+      "plain": "Over ten days the NASDAQ-100 fell 1.1% against the S&P's rise of 0.5%."
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=683.5 < SMA20=702.2 (-2.7%)",
+      "reason": "price=688.0 < SMA20=701.0 (-1.9%)",
       "label": "Short-term trend",
       "basis": "Price vs its 20-day average",
-      "plain": "Price is 2.7% below its 20-day average."
+      "plain": "Price is 1.9% below its 20-day average."
     },
     {
       "name": "credit",
       "vote": 1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.61% (10d) -- credit tightening, bull",
+      "reason": "HYG/LQD ratio +1.02% (10d) -- credit tightening, bull",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are outperforming safer ones, so lenders are relaxed."
     },
     {
       "name": "bonds",
-      "vote": 0,
+      "vote": 1,
       "weight": 0.09,
-      "reason": "TLT -1.7% (10d) -- bonds neutral",
+      "reason": "TLT -2.7% (10d) -- bonds selling, risk-on, bull",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
-      "plain": "Treasuries are flat, with no flight to safety."
+      "plain": "Long-dated Treasuries fell 2.7% over ten days, so money is leaving safety."
     }
   ],
   "regime": "CORRECTION",
-  "conviction": "NONE",
-  "health": 50.7,
-  "summary": "Trend mixed. Momentum weak. Risk appetite healthy.",
-  "drawdown_pct": -8.63,
+  "conviction": "MEDIUM",
+  "health": 64.0,
+  "summary": "Trend mixed. Momentum flat. Risk appetite healthy.",
+  "drawdown_pct": -8.09,
   "high_52w": 30762.2,
   "low_52w": 22673.88,
   "confirmed": false,
-  "qqq_price": 683.55,
-  "nasdaq_close": 28106.35,
-  "as_of": "2026-07-31T08:12:06+00:00",
-  "date": "2026-07-30",
+  "qqq_price": 687.99,
+  "nasdaq_close": 28274.2,
+  "as_of": "2026-07-31T21:05:20+00:00",
+  "date": "2026-07-31",
   "feeds_ok": {
     "qqq": true,
     "vix": true,
