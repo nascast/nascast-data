@@ -64,7 +64,7 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (-8.6% 5d, level=17.1)",
+      "reason": "VIX flat (-9.4% 5d, level=16.8)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 17."
@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.876 contango (17.1/19.5) -- bull",
+      "reason": "VIX/VXV=0.820 contango (16.8/20.5) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -125,7 +125,7 @@
   "confirmed": false,
   "qqq_price": 683.55,
   "nasdaq_close": 28106.35,
-  "as_of": "2026-07-30T21:05:17+00:00",
+  "as_of": "2026-07-31T08:12:06+00:00",
   "date": "2026-07-30",
   "feeds_ok": {
     "qqq": true,
