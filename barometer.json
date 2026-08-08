@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.796 contango (14.9/18.7) -- bull",
+      "reason": "VIX/VXV=0.725 contango (14.9/20.5) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -125,7 +125,7 @@
   "confirmed": true,
   "qqq_price": 723.03,
   "nasdaq_close": 29722.3,
-  "as_of": "2026-08-08T03:55:29+00:00",
+  "as_of": "2026-08-08T05:12:02+00:00",
   "date": "2026-08-07",
   "feeds_ok": {
     "qqq": true,
