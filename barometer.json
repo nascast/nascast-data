@@ -64,7 +64,7 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (-4.8% 5d, level=14.2)",
+      "reason": "VIX flat (-4.4% 5d, level=14.2)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 14."
@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.771 contango (14.2/18.4) -- bull",
+      "reason": "VIX/VXV=0.772 contango (14.2/18.5) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -82,7 +82,7 @@
       "name": "qqq_spy",
       "vote": 1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio +2.3% (10d) -- tech leading",
+      "reason": "QQQ/SPY ratio +2.2% (10d) -- tech leading",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
       "plain": "Over ten days the NASDAQ-100 rose 6.3% against the S&P's rise of 3.9%."
@@ -125,7 +125,7 @@
   "confirmed": true,
   "qqq_price": 731.07,
   "nasdaq_close": 30046.14,
-  "as_of": "2026-08-14T20:05:17+00:00",
+  "as_of": "2026-08-14T21:05:16+00:00",
   "date": "2026-08-14",
   "feeds_ok": {
     "qqq": true,
