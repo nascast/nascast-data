@@ -1,34 +1,34 @@
 {
-  "P_bull": 0.625,
+  "P_bull": 0.5735,
   "P_bear": 0.1544,
-  "P_neutral": 0.2206,
-  "edge": 0.4706,
-  "bull_count": 7,
+  "P_neutral": 0.2721,
+  "edge": 0.4191,
+  "bull_count": 6,
   "bear_count": 2,
   "signals": [
     {
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=713.0 > SMA200=652.0 golden cross (+9.4%)",
+      "reason": "SMA50=713.0 > SMA200=652.4 golden cross (+9.3%)",
       "label": "Long-term trend",
       "basis": "50-day vs 200-day moving average",
-      "plain": "The 50-day average sits 9.4% above the 200-day, the pattern traders call a golden cross."
+      "plain": "The 50-day average sits 9.3% above the 200-day, the pattern traders call a golden cross."
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=716.1 > EMA200=658.7 (+8.7%)",
+      "reason": "price=710.9 > EMA200=659.2 (+7.8%)",
       "label": "Price vs long-term average",
       "basis": "Price vs its 200-day exponential average",
-      "plain": "Price is 8.7% above its 200-day average."
+      "plain": "Price is 7.8% above its 200-day average."
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.44% (bear momentum)",
+      "reason": "MACD weekly hist=-0.38% (bear momentum)",
       "label": "Weekly momentum",
       "basis": "MACD histogram on weekly bars",
       "plain": "Momentum on the weekly chart is fading."
@@ -37,43 +37,43 @@
       "name": "rsi",
       "vote": 1,
       "weight": 0.11,
-      "reason": "RSI=67.7 (bull momentum >55)",
+      "reason": "RSI=62.4 (bull momentum >55)",
       "label": "Overbought or oversold",
       "basis": "14-day Relative Strength Index",
-      "plain": "RSI is 68, with buyers in control."
+      "plain": "RSI is 62, with buyers in control."
     },
     {
       "name": "mom_ensemble",
       "vote": 1,
       "weight": 0.16,
-      "reason": "ensemble BULL (1/3): 1M=+1.0%\u2013 3M=+2.1%\u2013 12M=+26.3%\u2191",
+      "reason": "ensemble BULL (1/3): 1M=+0.8%\u2013 3M=-0.3%\u2013 12M=+25.0%\u2191",
       "label": "Momentum across timeframes",
       "basis": "Returns over 1, 3 and 12 months",
-      "plain": "Gaining ground: up 1.0% this month, up 2.1% over three months and up 26.3% over the past year."
+      "plain": "Gaining ground: up 0.8% this month, down 0.3% over three months and up 25.0% over the past year."
     },
     {
       "name": "mom5",
       "vote": -1,
       "weight": 0.08,
-      "reason": "mom5d=-1.1% (bear)",
+      "reason": "mom5d=-2.9% (bear)",
       "label": "This week's momentum",
       "basis": "5-day price change",
-      "plain": "Down 1.1% over the last five days."
+      "plain": "Down 2.9% over the last five days."
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+2.3% 5d, level=14.9)",
+      "reason": "VIX flat (+9.4% 5d, level=16.0)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
-      "plain": "Volatility is steady at 15."
+      "plain": "Volatility is steady at 16."
     },
     {
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.725 contango (14.9/20.5) -- bull",
+      "reason": "VIX/VXV=0.842 contango (16.0/19.0) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -82,25 +82,25 @@
       "name": "qqq_spy",
       "vote": 0,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio flat (-0.1% 10d)",
+      "reason": "QQQ/SPY ratio flat (+0.2% 10d)",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 fell 0.2% against the S&P's fall of 0.1%."
+      "plain": "Over ten days the NASDAQ-100 fell 0.5% against the S&P's fall of 0.8%."
     },
     {
       "name": "sma20",
-      "vote": 1,
+      "vote": 0,
       "weight": 0.07,
-      "reason": "price=716.1 > SMA20=706.8 (+1.3%)",
+      "reason": "price hugging SMA20 (gap=0.5%)",
       "label": "Short-term trend",
       "basis": "Price vs its 20-day average",
-      "plain": "Price is 1.3% above its 20-day average."
+      "plain": "Price is hugging its 20-day average."
     },
     {
       "name": "credit",
       "vote": 1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.40% (10d) -- credit tightening, bull",
+      "reason": "HYG/LQD ratio +0.39% (10d) -- credit tightening, bull",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are outperforming safer ones, so lenders are relaxed."
@@ -109,24 +109,24 @@
       "name": "bonds",
       "vote": 0,
       "weight": 0.09,
-      "reason": "TLT +0.0% (10d) -- bonds neutral",
+      "reason": "TLT -0.2% (10d) -- bonds neutral",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
       "plain": "Treasuries are flat, with no flight to safety."
     }
   ],
-  "regime": "BULL",
+  "regime": "CORRECTION",
   "conviction": "HIGH",
-  "health": 73.5,
+  "health": 71.0,
   "summary": "Trend intact. Momentum firm. Risk appetite healthy.",
-  "drawdown_pct": -4.34,
+  "drawdown_pct": -5.04,
   "high_52w": 30762.2,
   "low_52w": 22841.42,
-  "confirmed": true,
-  "qqq_price": 716.08,
-  "nasdaq_close": 29426.02,
-  "as_of": "2026-08-20T04:21:02+00:00",
-  "date": "2026-08-19",
+  "confirmed": false,
+  "qqq_price": 710.93,
+  "nasdaq_close": 29213.16,
+  "as_of": "2026-08-20T20:05:15+00:00",
+  "date": "2026-08-20",
   "feeds_ok": {
     "qqq": true,
     "vix": true,
