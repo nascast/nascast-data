@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.842 contango (16.0/19.0) -- bull",
+      "reason": "VIX/VXV=0.840 contango (16.0/19.1) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -82,7 +82,7 @@
       "name": "qqq_spy",
       "vote": 0,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio flat (+0.2% 10d)",
+      "reason": "QQQ/SPY ratio flat (+0.3% 10d)",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
       "plain": "Over ten days the NASDAQ-100 fell 0.5% against the S&P's fall of 0.8%."
@@ -100,7 +100,7 @@
       "name": "credit",
       "vote": 1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.39% (10d) -- credit tightening, bull",
+      "reason": "HYG/LQD ratio +0.41% (10d) -- credit tightening, bull",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are outperforming safer ones, so lenders are relaxed."
@@ -125,7 +125,7 @@
   "confirmed": false,
   "qqq_price": 710.93,
   "nasdaq_close": 29213.16,
-  "as_of": "2026-08-20T20:05:15+00:00",
+  "as_of": "2026-08-20T21:05:18+00:00",
   "date": "2026-08-20",
   "feeds_ok": {
     "qqq": true,
