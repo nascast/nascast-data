@@ -100,7 +100,7 @@
       "name": "credit",
       "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio flat (-0.22% 10d) -- neutral",
+      "reason": "HYG/LQD ratio flat (-0.19% 10d) -- neutral",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Corporate credit markets are calm, with no clear lean."
@@ -125,7 +125,7 @@
   "confirmed": false,
   "qqq_price": 707.64,
   "nasdaq_close": 29077.22,
-  "as_of": "2026-09-01T20:05:17+00:00",
+  "as_of": "2026-09-01T20:58:56+00:00",
   "date": "2026-09-01",
   "final": true,
   "feeds_ok": {
