@@ -64,7 +64,7 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+5.8% 5d, level=16.3)",
+      "reason": "VIX flat (+3.1% 5d, level=16.3)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 16."
@@ -100,7 +100,7 @@
       "name": "credit",
       "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio flat (+0.05% 10d) -- neutral",
+      "reason": "HYG/LQD ratio flat (-0.19% 10d) -- neutral",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Corporate credit markets are calm, with no clear lean."
@@ -125,7 +125,7 @@
   "confirmed": false,
   "qqq_price": 707.64,
   "nasdaq_close": 29077.22,
-  "as_of": "2026-09-01T21:05:20+00:00",
+  "as_of": "2026-09-01T23:17:33+00:00",
   "date": "2026-09-01",
   "final": true,
   "feeds_ok": {
