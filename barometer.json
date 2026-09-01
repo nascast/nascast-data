@@ -64,7 +64,7 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (-5.9% 5d, level=14.9)",
+      "reason": "VIX flat (-5.6% 5d, level=15.0)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 15."
@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.851 contango (14.9/17.5) -- bull",
+      "reason": "VIX/VXV=0.729 contango (15.0/20.5) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -100,7 +100,7 @@
       "name": "credit",
       "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio flat (-0.23% 10d) -- neutral",
+      "reason": "HYG/LQD ratio flat (+0.04% 10d) -- neutral",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Corporate credit markets are calm, with no clear lean."
@@ -109,7 +109,7 @@
       "name": "bonds",
       "vote": 0,
       "weight": 0.09,
-      "reason": "TLT +1.4% (10d) -- bonds neutral",
+      "reason": "TLT +0.6% (10d) -- bonds neutral",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
       "plain": "Treasuries are flat, with no flight to safety."
@@ -125,7 +125,7 @@
   "confirmed": false,
   "qqq_price": 716.76,
   "nasdaq_close": 29456.97,
-  "as_of": "2026-09-01T00:36:37+00:00",
+  "as_of": "2026-09-01T07:44:25+00:00",
   "date": "2026-08-31",
   "final": true,
   "feeds_ok": {
