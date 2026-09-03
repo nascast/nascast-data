@@ -4025,10 +4025,10 @@
   },
   {
     "date": "2026-09-03",
-    "health": 59.2,
+    "health": 62.1,
     "regime": "CORRECTION",
     "P_bull": 0.4191,
-    "P_bear": 0.2353,
-    "edge": 0.1838
+    "P_bear": 0.1765,
+    "edge": 0.2426
   }
 ]
