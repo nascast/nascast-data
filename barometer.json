@@ -1,9 +1,9 @@
 {
-  "P_bull": 0.6912,
+  "P_bull": 0.6176,
   "P_bear": 0.0956,
-  "P_neutral": 0.2132,
-  "edge": 0.5956,
-  "bull_count": 8,
+  "P_neutral": 0.2868,
+  "edge": 0.5221,
+  "bull_count": 7,
   "bear_count": 1,
   "signals": [
     {
@@ -19,7 +19,7 @@
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=716.8 > EMA200=665.9 (+7.6%)",
+      "reason": "price=716.3 > EMA200=665.9 (+7.6%)",
       "label": "Price vs long-term average",
       "basis": "Price vs its 200-day exponential average",
       "plain": "Price is 7.6% above its 200-day average."
@@ -37,34 +37,34 @@
       "name": "rsi",
       "vote": 0,
       "weight": 0.11,
-      "reason": "RSI=50.6 (neutral 45-55)",
+      "reason": "RSI=50.2 (neutral 45-55)",
       "label": "Overbought or oversold",
       "basis": "14-day Relative Strength Index",
-      "plain": "RSI is 51, with neither side stretched."
+      "plain": "RSI is 50, with neither side stretched."
     },
     {
       "name": "mom_ensemble",
       "vote": 1,
       "weight": 0.16,
-      "reason": "ensemble BULL (1/3): 1M=-0.6%\u2013 3M=+1.3%\u2013 12M=+26.6%\u2191",
+      "reason": "ensemble BULL (1/3): 1M=-0.6%\u2013 3M=+1.2%\u2013 12M=+26.6%\u2191",
       "label": "Momentum across timeframes",
       "basis": "Returns over 1, 3 and 12 months",
-      "plain": "Gaining ground: down 0.6% this month, up 1.3% over three months and up 26.6% over the past year."
+      "plain": "Gaining ground: down 0.6% this month, up 1.2% over three months and up 26.6% over the past year."
     },
     {
       "name": "mom5",
       "vote": 1,
       "weight": 0.08,
-      "reason": "mom5d=+1.3% (bull)",
+      "reason": "mom5d=+1.2% (bull)",
       "label": "This week's momentum",
       "basis": "5-day price change",
-      "plain": "Up 1.3% over the last five days."
+      "plain": "Up 1.2% over the last five days."
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+7.2% 5d, level=16.3)",
+      "reason": "VIX flat (+7.7% 5d, level=16.4)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 16."
@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.869 contango (16.3/18.8) -- bull",
+      "reason": "VIX/VXV=0.872 contango (16.4/18.8) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -85,7 +85,7 @@
       "reason": "QQQ/SPY ratio +1.2% (10d) -- tech leading",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 rose 0.9% against the S&P's fall of 0.4%."
+      "plain": "Over ten days the NASDAQ-100 rose 0.8% against the S&P's fall of 0.5%."
     },
     {
       "name": "sma20",
@@ -98,36 +98,36 @@
     },
     {
       "name": "credit",
-      "vote": 1,
+      "vote": 0,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio +0.35% (10d) -- credit tightening, bull",
+      "reason": "HYG/LQD ratio flat (+0.30% 10d) -- neutral",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
-      "plain": "Riskier corporate bonds are outperforming safer ones, so lenders are relaxed."
+      "plain": "Corporate credit markets are calm, with no clear lean."
     },
     {
       "name": "bonds",
       "vote": 1,
       "weight": 0.09,
-      "reason": "TLT -2.0% (10d) -- bonds selling, risk-on, bull",
+      "reason": "TLT -2.1% (10d) -- bonds selling, risk-on, bull",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
-      "plain": "Long-dated Treasuries fell 2.0% over ten days, so money is leaving safety."
+      "plain": "Long-dated Treasuries fell 2.1% over ten days, so money is leaving safety."
     }
   ],
   "regime": "BULL",
   "conviction": "HIGH",
-  "health": 79.8,
+  "health": 76.1,
   "summary": "Trend intact. Momentum firm. Risk appetite healthy.",
-  "drawdown_pct": -4.28,
+  "drawdown_pct": -4.36,
   "high_52w": 30762.2,
   "low_52w": 22841.42,
   "confirmed": true,
-  "qqq_price": 716.8,
-  "nasdaq_close": 29446.39,
-  "as_of": "2026-09-09T17:47:33+00:00",
+  "qqq_price": 716.31,
+  "nasdaq_close": 29421.55,
+  "as_of": "2026-09-09T20:05:14+00:00",
   "date": "2026-09-09",
-  "final": false,
+  "final": true,
   "feeds_ok": {
     "qqq": true,
     "vix": true,
