@@ -1,25 +1,25 @@
 {
-  "P_bull": 0.3529,
-  "P_bear": 0.5809,
-  "P_neutral": 0.0662,
-  "edge": 0.2279,
-  "bull_count": 3,
-  "bear_count": 8,
+  "P_bull": 0.2353,
+  "P_bear": 0.5,
+  "P_neutral": 0.2647,
+  "edge": 0.2647,
+  "bull_count": 2,
+  "bear_count": 7,
   "signals": [
     {
       "name": "sma_regime",
       "vote": 1,
       "weight": 0.18,
-      "reason": "SMA50=726.7 > SMA200=675.4 golden cross (+7.6%)",
+      "reason": "SMA50=726.6 > SMA200=676.0 golden cross (+7.5%)",
       "label": "Long-term trend",
       "basis": "50-day vs 200-day moving average",
-      "plain": "The 50-day average sits 7.6% above the 200-day, the pattern traders call a golden cross."
+      "plain": "The 50-day average sits 7.5% above the 200-day, the pattern traders call a golden cross."
     },
     {
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=718.4 > EMA200=682.5 (+5.3%)",
+      "reason": "price=718.9 > EMA200=682.8 (+5.3%)",
       "label": "Price vs long-term average",
       "basis": "Price vs its 200-day exponential average",
       "plain": "Price is 5.3% above its 200-day average."
@@ -37,70 +37,70 @@
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=38.8 (bear momentum <45)",
+      "reason": "RSI=37.9 (bear momentum <45)",
       "label": "Overbought or oversold",
       "basis": "14-day Relative Strength Index",
-      "plain": "RSI is 39, with sellers in control."
+      "plain": "RSI is 38, with sellers in control."
     },
     {
       "name": "mom_ensemble",
-      "vote": 1,
+      "vote": 0,
       "weight": 0.16,
-      "reason": "ensemble BULL (1/3): 1M=-0.4%\u2013 3M=+1.3%\u2013 12M=+22.3%\u2191",
+      "reason": "ensemble SPLIT: 1M=-3.0%\u2193 3M=+1.9%\u2013 12M=+24.5%\u2191",
       "label": "Momentum across timeframes",
       "basis": "Returns over 1, 3 and 12 months",
-      "plain": "Gaining ground: down 0.4% this month, up 1.3% over three months and up 22.3% over the past year."
+      "plain": "Mixed picture: down 3.0% this month, up 1.9% over three months and up 24.5% over the past year."
     },
     {
       "name": "mom5",
       "vote": -1,
       "weight": 0.08,
-      "reason": "mom5d=-3.7% (bear)",
+      "reason": "mom5d=-3.3% (bear)",
       "label": "This week's momentum",
       "basis": "5-day price change",
-      "plain": "Down 3.7% over the last five days."
+      "plain": "Down 3.3% over the last five days."
     },
     {
       "name": "vix",
-      "vote": -1,
+      "vote": 0,
       "weight": 0.11,
-      "reason": "VIX +20.3% (5d) spiking -- fresh fear, bear",
+      "reason": "VIX flat (+13.4% 5d, level=17.3)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
-      "plain": "The volatility index jumped 20% in five days to 18. Fear is rising."
+      "plain": "Volatility is steady at 17."
     },
     {
       "name": "vix_term",
       "vote": 0,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.939 flat -- neutral",
+      "reason": "VIX/VXV=0.914 flat -- neutral",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
-      "plain": "Near-term and three-month volatility are in line (ratio 0.94)."
+      "plain": "Near-term and three-month volatility are in line (ratio 0.91)."
     },
     {
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -4.0% (10d) -- tech lagging",
+      "reason": "QQQ/SPY ratio -4.2% (10d) -- tech lagging",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 fell 5.0% against the S&P's fall of 1.1%."
+      "plain": "Over ten days the NASDAQ-100 fell 5.4% against the S&P's fall of 1.3%."
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=718.4 < SMA20=741.4 (-3.1%)",
+      "reason": "price=718.9 < SMA20=739.9 (-2.8%)",
       "label": "Short-term trend",
       "basis": "Price vs its 20-day average",
-      "plain": "Price is 3.1% below its 20-day average."
+      "plain": "Price is 2.8% below its 20-day average."
     },
     {
       "name": "credit",
       "vote": -1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio -1.21% (10d) -- credit widening, bear",
+      "reason": "HYG/LQD ratio -1.49% (10d) -- credit widening, bear",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are lagging safer ones, so lenders are turning cautious."
@@ -109,25 +109,25 @@
       "name": "bonds",
       "vote": -1,
       "weight": 0.09,
-      "reason": "TLT +3.0% (10d) -- bonds rallying, flight-to-safety, bear",
+      "reason": "TLT +3.5% (10d) -- bonds rallying, flight-to-safety, bear",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
-      "plain": "Long-dated Treasuries rose 3.0% over ten days, so money is moving into safety."
+      "plain": "Long-dated Treasuries rose 3.5% over ten days, so money is moving into safety."
     }
   ],
   "regime": "CORRECTION",
   "conviction": "MEDIUM",
-  "health": 38.6,
+  "health": 36.8,
   "summary": "Trend mixed. Momentum weak. Risk-off pressure building.",
-  "drawdown_pct": -5.84,
+  "drawdown_pct": -5.76,
   "high_52w": 31361.37,
   "low_52w": 22841.42,
   "confirmed": false,
-  "qqq_price": 718.36,
-  "nasdaq_close": 29529.34,
-  "as_of": "2026-10-19T20:05:14+00:00",
-  "date": "2026-10-19",
-  "final": true,
+  "qqq_price": 718.91,
+  "nasdaq_close": 29554.01,
+  "as_of": "2026-10-20T18:26:41+00:00",
+  "date": "2026-10-20",
+  "final": false,
   "feeds_ok": {
     "qqq": true,
     "vix": true,
@@ -138,13 +138,13 @@
     "tlt": true
   },
   "feed_dates": {
-    "qqq": "2026-10-19",
-    "vix": "2026-10-19",
-    "spy": "2026-10-19",
-    "vxv": "2026-10-19",
-    "hyg": "2026-10-19",
-    "lqd": "2026-10-19",
-    "tlt": "2026-10-19",
-    "ndx": "2026-10-19"
+    "qqq": "2026-10-20",
+    "vix": "2026-10-20",
+    "spy": "2026-10-20",
+    "vxv": "2026-10-20",
+    "hyg": "2026-10-20",
+    "lqd": "2026-10-20",
+    "tlt": "2026-10-20",
+    "ndx": "2026-10-20"
   }
 }
