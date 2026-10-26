@@ -64,7 +64,7 @@
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (-0.7% 5d, level=18.3)",
+      "reason": "VIX flat (-0.6% 5d, level=18.3)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 18."
@@ -85,7 +85,7 @@
       "reason": "QQQ/SPY ratio -2.9% (10d) -- tech lagging",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 fell 4.5% against the S&P's fall of 1.7%."
+      "plain": "Over ten days the NASDAQ-100 fell 4.5% against the S&P's fall of 1.6%."
     },
     {
       "name": "sma20",
@@ -100,7 +100,7 @@
       "name": "credit",
       "vote": -1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio -1.57% (10d) -- credit widening, bear",
+      "reason": "HYG/LQD ratio -1.51% (10d) -- credit widening, bear",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are lagging safer ones, so lenders are turning cautious."
@@ -119,15 +119,15 @@
   "conviction": "LOW",
   "health": 42.6,
   "summary": "Trend mixed. Momentum weak. Risk-off pressure building.",
-  "drawdown_pct": -6.65,
+  "drawdown_pct": -6.66,
   "high_52w": 31361.37,
   "low_52w": 22841.42,
   "confirmed": false,
-  "qqq_price": 712.17,
-  "nasdaq_close": 29275.93,
-  "as_of": "2026-10-26T19:53:27+00:00",
+  "qqq_price": 712.2,
+  "nasdaq_close": 29273.4,
+  "as_of": "2026-10-26T20:05:15+00:00",
   "date": "2026-10-26",
-  "final": false,
+  "final": true,
   "feeds_ok": {
     "qqq": true,
     "vix": true,
