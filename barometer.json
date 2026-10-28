@@ -19,16 +19,16 @@
       "name": "ema200",
       "vote": 1,
       "weight": 0.14,
-      "reason": "price=722.5 > EMA200=684.6 (+5.5%)",
+      "reason": "price=725.6 > EMA200=684.6 (+6.0%)",
       "label": "Price vs long-term average",
       "basis": "Price vs its 200-day exponential average",
-      "plain": "Price is 5.5% above its 200-day average."
+      "plain": "Price is 6.0% above its 200-day average."
     },
     {
       "name": "macd_weekly",
       "vote": -1,
       "weight": 0.13,
-      "reason": "MACD weekly hist=-0.39% (bear momentum)",
+      "reason": "MACD weekly hist=-0.36% (bear momentum)",
       "label": "Weekly momentum",
       "basis": "MACD histogram on weekly bars",
       "plain": "Momentum on the weekly chart is fading."
@@ -37,34 +37,34 @@
       "name": "rsi",
       "vote": -1,
       "weight": 0.11,
-      "reason": "RSI=37.6 (bear momentum <45)",
+      "reason": "RSI=39.4 (bear momentum <45)",
       "label": "Overbought or oversold",
       "basis": "14-day Relative Strength Index",
-      "plain": "RSI is 38, with sellers in control."
+      "plain": "RSI is 39, with sellers in control."
     },
     {
       "name": "mom_ensemble",
       "vote": 1,
       "weight": 0.16,
-      "reason": "ensemble BULL (2/3): 1M=-2.1%\u2193 3M=+5.7%\u2191 12M=+23.8%\u2191",
+      "reason": "ensemble BULL (2/3): 1M=-1.7%\u2013 3M=+6.2%\u2191 12M=+23.8%\u2191",
       "label": "Momentum across timeframes",
       "basis": "Returns over 1, 3 and 12 months",
-      "plain": "Gaining ground: down 2.1% this month, up 5.7% over three months and up 23.8% over the past year."
+      "plain": "Gaining ground: down 1.7% this month, up 6.2% over three months and up 23.8% over the past year."
     },
     {
       "name": "mom5",
       "vote": 0,
       "weight": 0.08,
-      "reason": "mom5d=-0.4% (neutral \u00b10.5%)",
+      "reason": "mom5d=+0.1% (neutral \u00b10.5%)",
       "label": "This week's momentum",
       "basis": "5-day price change",
-      "plain": "Barely moved over five days (-0.4%)."
+      "plain": "Barely moved over five days (+0.1%)."
     },
     {
       "name": "vix",
       "vote": 0,
       "weight": 0.11,
-      "reason": "VIX flat (+2.3% 5d, level=17.1)",
+      "reason": "VIX flat (+0.8% 5d, level=16.8)",
       "label": "Volatility direction",
       "basis": "5-day change in the VIX volatility index",
       "plain": "Volatility is steady at 17."
@@ -73,7 +73,7 @@
       "name": "vix_term",
       "vote": 1,
       "weight": 0.09,
-      "reason": "VIX/VXV=0.885 contango (17.1/19.3) -- bull",
+      "reason": "VIX/VXV=0.878 contango (16.8/19.2) -- bull",
       "label": "Near vs longer-term volatility",
       "basis": "VIX against 3-month VIX",
       "plain": "Traders expect calmer conditions now than in three months' time, the normal and healthy pattern."
@@ -82,25 +82,25 @@
       "name": "qqq_spy",
       "vote": -1,
       "weight": 0.1,
-      "reason": "QQQ/SPY ratio -1.0% (10d) -- tech lagging",
+      "reason": "QQQ/SPY ratio -0.8% (10d) -- tech lagging",
       "label": "Tech vs the broad market",
       "basis": "NASDAQ-100 vs S&P 500 over 10 days",
-      "plain": "Over ten days the NASDAQ-100 fell 0.9% against the S&P's rise of 0.1%."
+      "plain": "Over ten days the NASDAQ-100 fell 0.5% against the S&P's rise of 0.4%."
     },
     {
       "name": "sma20",
       "vote": -1,
       "weight": 0.07,
-      "reason": "price=722.5 < SMA20=732.3 (-1.3%)",
+      "reason": "price=725.6 < SMA20=732.5 (-0.9%)",
       "label": "Short-term trend",
       "basis": "Price vs its 20-day average",
-      "plain": "Price is 1.3% below its 20-day average."
+      "plain": "Price is 0.9% below its 20-day average."
     },
     {
       "name": "credit",
       "vote": -1,
       "weight": 0.1,
-      "reason": "HYG/LQD ratio -0.30% (10d) -- credit widening, bear",
+      "reason": "HYG/LQD ratio -0.35% (10d) -- credit widening, bear",
       "label": "Credit conditions",
       "basis": "High-yield vs investment-grade bonds (HYG/LQD)",
       "plain": "Riskier corporate bonds are lagging safer ones, so lenders are turning cautious."
@@ -109,25 +109,25 @@
       "name": "bonds",
       "vote": -1,
       "weight": 0.09,
-      "reason": "TLT +2.4% (10d) -- bonds rallying, flight-to-safety, bear",
+      "reason": "TLT +2.7% (10d) -- bonds rallying, flight-to-safety, bear",
       "label": "Bond flows",
       "basis": "20-year+ Treasuries (TLT) over 10 days",
-      "plain": "Long-dated Treasuries rose 2.4% over ten days, so money is moving into safety."
+      "plain": "Long-dated Treasuries rose 2.7% over ten days, so money is moving into safety."
     }
   ],
   "regime": "CORRECTION",
   "conviction": "NONE",
   "health": 48.9,
   "summary": "Trend mixed. Momentum flat. Risk-off pressure building.",
-  "drawdown_pct": -5.28,
+  "drawdown_pct": -4.94,
   "high_52w": 31361.37,
   "low_52w": 22841.42,
   "confirmed": false,
-  "qqq_price": 722.49,
-  "nasdaq_close": 29704.4,
-  "as_of": "2026-10-28T19:30:32+00:00",
+  "qqq_price": 725.61,
+  "nasdaq_close": 29813.16,
+  "as_of": "2026-10-28T20:05:19+00:00",
   "date": "2026-10-28",
-  "final": false,
+  "final": true,
   "feeds_ok": {
     "qqq": true,
     "vix": true,
