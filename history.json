@@ -1,13 +1,5 @@
 [
   {
-    "date": "2024-10-23",
-    "health": 72.1,
-    "regime": "CORRECTION",
-    "P_bull": 0.5735,
-    "P_bear": 0.1324,
-    "edge": 0.4412
-  },
-  {
     "date": "2024-10-24",
     "health": 74.3,
     "regime": "CORRECTION",
@@ -4025,6 +4017,14 @@
   },
   {
     "date": "2026-10-27",
+    "health": 48.9,
+    "regime": "CORRECTION",
+    "P_bull": 0.4191,
+    "P_bear": 0.4412,
+    "edge": 0.0221
+  },
+  {
+    "date": "2026-10-28",
     "health": 48.9,
     "regime": "CORRECTION",
     "P_bull": 0.4191,
